@@ -101,10 +101,58 @@ header
 
 #img
 {
+    background-color: #0079fe;
     width: 100px;
     height: 100px;
- 
     border-radius: 50%;
+    margin-right: 40px;
+    float:left;
+}
+.ph
+{
+    position: relative;
+    top: 40%;
+    text-align: center;
+    font-size:36px;
+    font-style: italic;
+    color: rgb(100, 100, 100);
+
+}
+.hide
+{
+    display: none;
+}
+
+#name
+{
+    font-size: 16px;
+}
+#log
+{
+    font-size:14px;
+}
+
+#date
+{
+    font-size: 16px;
+    color: #0079fe;
+}
+#template
+{
+    margin-left:40px;
+    margin-top: 30px;
+}
+#follow
+{
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 25px;
+    width: 350px;
+    height: 75px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.453);
+}
+
+.nbr
+{
+    text-align: center;
 }
