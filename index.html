@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Github user search</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <script src="https://kit.fontawesome.com/b9a7e5d6de.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -13,8 +15,14 @@
     </header>
     <div id="a">
     <span> Light theme </span>
-    <div class="main search"></div>
-    <div class="main display"></div>
+    <div class="main search">
+        <i class="fa-solid fa-magnifying-glass fa-xl" id="ic"></i>
+        <input type="text" placeholder="Search username..." id="searchbar">
+        <button id="btn1">Search</button>
+    </div>
+    <div class="main" id="display">
+        
+    </div>
     </div>
 </body>
 </html>
